@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OrlandoSugian_2410817210017</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+
+    section.text-center h2 {
+      font-family: 'Times New Roman', serif;
+      font-size: 2rem;
+      font-weight: 900;
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+
+    section.text-center p {
+      font-family: 'Times New Roman', serif;
+      font-size: 1.85rem;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 0.3rem;
+      letter-spacing: 1.25;
+      color: #222;
+    }
+
+    section.text-center small {
+      font-family: 'Arial', serif;
+      font-size: 0.85rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #999;
+      letter-spacing: 5.65px;
+    }
+
+    .filter-nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.25rem;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      font-family: 'Times New Roman', serif;
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: #222;
+    }
+
+    .filter-nav button {
+      background: none;
+      border: none;
+      padding: 4px 10px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+    }
+
+    .filter-nav .active {
+      border: 1px solid #6c757d;
+      border-radius: 999px;
+      padding: 5px 18px;
+      font-weight: 500;
+      color: #222;
+    }
+
+    body {
+      font-family: Times New Roman, sans-serif;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+  
+    nav.navbar {
+      border-bottom: none;
+      box-shadow: none;
+    }
+
+    .gallery-img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    .nav-link-custom {
+      color: #6c757d;
+      text-transform: uppercase;
+      padding: 10px 26px !important;
+      line-height: 1.8;
+      font-size: 0.8rem;
+      margin: 0 6px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      outline: none;
+      box-shadow: none;
+    }
+
+    .nav-link-custom.active {
+      border: 1px solid #6c757d;     /* Garis border hitam seperti di modul */
+      border-radius: 10px;
+      color: #000;
+      background-color: transparent;
+    }
+
+    footer {
+      border-top: 1px solid #dee2e6;
+      background-color: white;
+      position: relative;
+      font-family: 'Times New Roman', serif;
+    }
+
+    footer .corner {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      border: 3px solid black;
+    }
+
+    footer .top-left {
+      top: -15px;
+      left: -15px;
+      border-bottom: none;
+      border-right: none;
+    }
+
+    footer .bottom-right {
+      bottom: -15px;
+      right: -15px;
+      border-top: none;
+      border-left: none;
+    }
+
+    .footer-brand {
+      font-family: 'Times New Roman', serif;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.1rem;
+    }
+
+    footer i {
+      font-size: 1rem;
+      color: #bcbcbc;
+      transition: color 0.3s ease;
+    }
+
+    footer i:hover {
+      color: #000;
+    }
+
+    footer h5 {
+      font-family: 'Times New Roman', serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+
+    .footer-copy {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 400;
+      color: #bcbcbc;
+      line-height: 1.4;
+      margin-top: -0.5rem !important;
+      margin-bottom: 1.25rem !important;
+    }
+
+  </style>
+</head>
+  
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f8f9fa;">
+    <div class="container px-5 py-3">
+      <a class="navbar-brand fw-bold fs-4" href="#">OPhotography</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item"><a class="nav-link nav-link-custom active" href="#">HOME</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#">ABOUT ME</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#">PORTFOLIO</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="text-center my-5">
+    <h2>Hi. Hello..! I Am Orlando..!</h2>
+    <p>I Travel Around The World To Get The Best Photos!</p>
+    <small>AWARD WINNING PHOTOGRAPHER / CINEMATOGRAPHER / WRITER</small>
+  </section>
+
+  <div class="filter-nav">
+    <button class="active">All</button>
+    <button>Landscape</button>
+    <button>Portrait</button>
+    <button>Product</button>
+  </div>
+
+    <div class="container mb-5">
+      <div class="row g-3">
+        <div class="col-6 col-md-3"><img src="https://play-lh.googleusercontent.com/nylDTV-UGxiTYYDCLp60jX0pln_9ZlCSYlZrUXU3Yitr8zfJJ2Z910bSHWICWY1mnQ" class="gallery-img" alt="Gallery 1"></div>
+        <div class="col-6 col-md-3"><img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/02/sukuna-s-awakening-season-2-episode-15-jujutsu-kaisen.jpg" class="gallery-img" alt="Gallery 2"></div>
+        <div class="col-6 col-md-3"><img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/04/Resident-Evil-2-Mr.-X.jpg" class="gallery-img" alt="Gallery 3"></div>
+        <div class="col-6 col-md-3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7oLvwvpHOtiWUECU4Ba8msVY6Cuc7g04ofQ&s" class="gallery-img" alt="Gallery 4"></div>
+        <div class="col-6 col-md-3"><img src="https://media.tenor.com/vpx5zwl_gBgAAAAe/ishowspeed.png" class="gallery-img" alt="Gallery 5"></div>
+        <div class="col-6 col-md-3"><img src="https://i.ytimg.com/vi/oaTlCW25auI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAgH487ENfAQodJpXdKgNT54z-hog" class="gallery-img" alt="Gallery 6"></div>
+        <div class="col-6 col-md-3"><img src="https://bintangtamu.id/wp-content/uploads/2024/11/Untitled-design-19-1.jpg" class="gallery-img" alt="Gallery 7"></div>
+        <div class="col-6 col-md-3"><img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/04/genshin-impact-character-skirk.jpg?q=70&fit=contain&w=1200&h=628&dpr=1" class="gallery-img" alt="Gallery 8"></div>
+        <div class="col-6 col-md-3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUPRurVJogjpdDtAZnY7XBG5414y6Lmlpzng&s" class="gallery-img" alt="Gallery 9"></div>
+        <div class="col-6 col-md-3"><img src="https://p16-common-sign-sg.tiktokcdn-us.com/tos-alisg-avt-0068/b580ceb0a54bcf0b68f5919c32da8144~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=2928cf85&x-expires=1749564000&x-signature=awOmhPTASli0SoUvtdxj97cVFy8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5" class="gallery-img" alt="Gallery 10"></div>
+        <div class="col-6 col-md-3"><img src="https://image.idntimes.com/post/20220322/qin-shi-huang-record-of-ragnarok-dc3d03b2c5547ef93acec4d5f3f74136.jpg" class="gallery-img" alt="Gallery 11"></div>
+        <div class="col-6 col-md-3"><img src="https://cdns.klimg.com/resized/670x/g/1/0/10_meme_joko_dari_jendela_smp_yang_viral_bukan_main_jadi_deddy_corbuzier_hingga_ipin_upin/p/meme_joko-20210130-006-non_fotografer_kly.jpg" class="gallery-img" alt="Gallery 12"></div>
+        <div class="col-6 col-md-3"><img src="https://preview.redd.it/who-wins-gitae-or-ui-daniel-v0-jq9t0cmrhfwc1.jpg?width=640&crop=smart&auto=webp&s=6189d94c97a925dbfa2b73acef0d1d7e4c1a7012" class="gallery-img" alt="Gallery 13"></div>
+        <div class="col-6 col-md-3"><img src="https://i.pinimg.com/736x/19/9b/92/199b924c6b2ca6a46f269dbf49e81667.jpg" class="gallery-img" alt="Gallery 14"></div>
+        <div class="col-6 col-md-3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzv0Uoz9BghO74FITqh1qXoaYIp5jVrbC_vA&s" class="gallery-img" alt="Gallery 15"></div>
+        <div class="col-6 col-md-3"><img src="https://ih1.redbubble.net/image.5492097426.4863/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.webp" class="gallery-img" alt="Gallery 16"></div>
+      </div>
+    </div>
+
+    <footer class="text-center py-5 border-top position-relative">
+    <h5 class="footer-brand">OPhotography</h5>
+    <small class="footer-copy">© Copyrights 2019. All Rights Reserved.</small>
+
+    <div class="d-flex justify-content-center gap-3 mt-2">
+      <i class="fab fa-dribbble"></i>
+      <i class="fab fa-behance"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-500px"></i>
+      <i class="fab fa-flickr"></i>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+    </div>
+
+    <div class="corner top-left"></div>
+    <div class="corner bottom-right"></div>
+    </footer>
+
+</body>
+</html>
